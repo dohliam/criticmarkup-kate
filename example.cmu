@@ -1,0 +1,23 @@
+# CriticMarkup Syntax
+
+Demonstration of [CriticMarkup](http://criticmarkup.com/) syntax in Kate.
+
+* Addition: `{++ ++}`
+
+For text{++ that has been added++}
+
+* Deletion: `{-- --}`
+
+For text{-- that has been deleted--}
+
+* Substitution: `{~~ ~> ~~}`
+
+For text {~~that was~>that has been~~} substituted
+
+* Comment: `{>> <<}`
+
+For interlinear comments
+
+* Highlight: `{== ==}{>> <<}`
+
+{==For text that is highlighted==}{>>@author With corresponding comments<<}
